@@ -34,14 +34,14 @@ body:
     validations:
       required: true
   - type: textarea
-    id: goal
+    id: goals
     attributes:
-      label: Goal
+      label: Goals
       description: Give a list of goals you want to achieve. They should be short and easy to understand.
       placeholder: |
-        - <Goal 1>
-        - <Goal 2>
-        - <Goal 3>
+        - (Goal 1)
+        - (Goal 2)
+        - (Goal 3)
     validations:
       required: true
   - type: textarea
@@ -51,6 +51,15 @@ body:
       description: The detailed solution to your problems.
     validations:
       required: true
+  - type: textarea
+    id: questions
+    attributes:
+      label: Questions
+      description: Leave some questions if you are looking for more specific feedbacks.
+      placeholder: |
+        - Is there a better way to achieve ...?
+        - Are there any potential security vulnerabilities?
+        - (Leave any questions for people to discuss)
   - type: textarea
     id: stakeholders
     attributes:
