@@ -38,7 +38,7 @@ body:
     attributes:
       label: Goal
       description: Give a list of goals you want to achieve. They should be short and easy to understand.
-      value: |
+      placeholder: |
         - <Goal 1>
         - <Goal 2>
         - <Goal 3>
@@ -56,3 +56,8 @@ body:
     attributes:
       label: Stakeholders
       description: A list of stakeholders that should be aware of this RFC.
+      placeholder: |
+        - UED: @dave
+        - PMM: @robert
+        - Dev: @tom @mike
+        - (Include every one you want to mention / credit)
