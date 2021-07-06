@@ -7,17 +7,17 @@ body:
     attributes:
       value: Writing an RFC document is a good starting point to share your ideas, collect feedbacks and improve your solutions.
   - type: input
+    id: starting-date
     attributes:
       label: Starting Date
-      id: starting-date
       description: The starting date for your RFC discussions. You can fill in today's date if you are creating a new RFC.
       placeholder: YYYY-MM-DD
     validations:
       required: true
   - type: dropdown
+    id: current-state
     attributes:
       label: Current State
-      id: current-state
       description: |
         All new RFC documents should start in the `Draft` state. `Finalized` RFC should no longer accept any new edits.
       options:
@@ -27,16 +27,16 @@ body:
     validations:
       required: true
   - type: textarea
+    id: problem
     attributes:
       label: Problem
-      id: problem
       description: Provide some backgrounds about your ideas, e.g. user stories / technical pain points / related bug reports.
     validations:
       required: true
   - type: textarea
+    id: goal
     attributes:
       label: Goal
-      id: goal
       description: Give a list of goals you want to achieve. They should be short and easy to understand.
       value: |
         - <Goal 1>
@@ -45,14 +45,14 @@ body:
     validations:
       required: true
   - type: textarea
+    id: solution
     attributes:
       label: Solution
-      id: solution
       description: The detailed solution to your problems.
     validations:
       required: true
   - type: textarea
+    id: stakeholders
     attributes:
       label: Stakeholders
-      id: stakeholders
       description: A list of stakeholders that should be aware of this RFC.
