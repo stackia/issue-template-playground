@@ -1,7 +1,7 @@
 ---
 name: RFC
 about: Create an RFC (Request for Comments) document to discuss with others.
-title: [RFC-draft] <Your RFC Title>
+title: "[RFC-draft] <Your RFC Title>"
 labels: rfc
 assignees: ''
 
